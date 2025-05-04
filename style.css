@@ -65,7 +65,7 @@ nav{
     border: 1px solid silver;
     border-radius: 20px;
     right: 10%;
-    top: 12%;
+    top: 80px;
     display: none;
     background: #ebf2ff;
     padding: 10px 20px;
@@ -186,7 +186,7 @@ main{
         display: none;
     }
     .hamContent{width: 70%;}
-    .acctInfo{top: 19%; right: 9%;}
+    .acctInfo{top: 130px; right: 50px;}
     .acctInfo article{
         font-size: calc(10px + 1vw);
         padding: 5px;
@@ -202,7 +202,7 @@ main{
         }
     }
     .acctInfo{
-        top: 19%; right: 8%;
+        top: 125px; right: 20px;
         article{font-size: calc(8px + 1vw);}
     }
     nav .userProfile .userName{
