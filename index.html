@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Bank App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="userProfile">
+            <div class="userImg"></div>
+            <div class="userName">
+                <b>Akinboye Festus</b>
+                <i>festusakinboye@gmail.com</i>
+            </div>
+        </div>
+        <div class="navContent">
+            <ul>
+                <li class="acctInfoDetails">Account Information</li>
+                <li>Recent Transactions</li>
+                <li>Cards</li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <img src="hamburger.png" alt="">
+        </div>
+    </nav>
+    <div class="hamContent">
+        <ul>
+            <li class="acctInfoDetails2">Account Information</li>
+            <li>Recent Transactions</li>
+            <li>Cards</li>
+        </ul>
+        <h2>Other Services Rendered <span style="color: Red;">(Coming Soon 😉 ...)</span></h2>
+        <ul>
+            <li>Fixed Deposit,</li>
+            <li>Monthly Auto Savings,</li>
+            <li>Retirement Savings Plan,</li>
+            <li>Loans...</li>
+        </ul>
+    </div>
+    <section class="acctInfo">
+        <article>
+            <p>Name: <span>Akinboye Festus</span></p>
+            <p>E-mail: <span>festusakinboye@gmail.com</span></p>
+            <p>Account Type: <span>Savings</span></p>
+        </article>
+    </section>
+    <main>
+        <div class="mainSubDiv1">
+            <div class="acctBal">
+                <div style="padding: 0px;">
+                    <b>Total Balance 
+                        <span style="cursor: pointer;">
+                            <img height="12px" width="auto" src="crossed-eye.png" alt="hide Balance" class="crossedEye">
+                            <!-- <img height="12px" width="auto" src="eye.png" alt="view Balance" class="viewBal"> -->
+                        </span>
+                    </b>
+                    <h1 class="bal">$<span id="mainBalance">0.00</span></h1>
+                    <h1 class="hideBal">****</h1>
+                </div>
+                <button style="background-color: rgb(255, 55, 55);" id="sendMoneyTrigger">
+                    <img src="send.png" alt="">
+                    Send Money
+                </button>
+                <div class="sendBal" id="removeBal">
+                    <input type="text" id="removeBalanceInput">
+                    <button class="confirmBalBtn" id="removeBalBtn" style="width: fit-content;">Send</button>
+                </div>
+                <button id="addMoneyTrigger">
+                    <img src="send.png" alt="">
+                    Add Money
+                </button>
+                <div class="sendBal" id="addToBalance">
+                    <input type="text" id="addBalanceInput">
+                    <button class="confirmBalBtn" id="addBalBtn" style="width: fit-content;">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainSubDiv2">
+            <div class="otherServices">
+                <b>Other Services Rendered <span style="color: Red;">(Coming Soon 😉 ...)</span></b>
+                <ul>
+                    <li>Fixed Deposit,</li>
+                    <li>Monthly Auto Savings,</li>
+                    <li>Retirement Savings Plan,</li>
+                    <li>Loans...</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+<script src="script.js"></script>
+</body>
+</html>
